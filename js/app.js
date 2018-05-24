@@ -22,6 +22,8 @@ var allFeeds = [
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
     }
 ];
+let trans = $('.slide-menu').css('transform');
+console.log('transform:' + trans);
 
 /* This function starts up our application. The Google Feed
  * Reader API is loaded asynchonously and will then call this

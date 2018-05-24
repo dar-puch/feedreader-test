@@ -27,33 +27,52 @@ $(function() {
         });
 
 
-        /* TODO: Write a test that loops through each feed
+        /* a test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
 
+it('has URL', function() {
+  allFeeds.forEach(function(feed) {
+expect(feed.hasOwnProperty('url')).toBe(true);
+expect(feed.url).not.toBe('');
 
-        /* TODO: Write a test that loops through each feed
+});
+});
+        /* a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
-    });
+
+it('has name', function() {
+  allFeeds.forEach(function(feed) {
+    expect(feed.hasOwnProperty('name')).toBe(true);
+    expect(feed.name).not.toBe('');
+  });
+});
+
+    }); //end suite
 
 
-    /* TODO: Write a new test suite named "The menu" */
-
+    /* test suite named "The menu" */
+    describe('The menu', function() {
         /* TODO: Write a test that ensures the menu element is
          * hidden by default. You'll have to analyze the HTML and
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
 
+it('Menu element is hidden by default', function() {
+expect($('body').hasClass('menu-hidden')).toBe(true);
+expect($('.slide-menu').css('transform')).not.toBe('matrix(1, 0, 0, 1, 0, 0)');
+
+})
          /* TODO: Write a test that ensures the menu changes
           * visibility when the menu icon is clicked. This test
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
-
+  });
     /* TODO: Write a new test suite named "Initial Entries" */
 
         /* TODO: Write a test that ensures when the loadFeed
