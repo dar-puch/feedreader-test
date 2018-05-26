@@ -1,4 +1,4 @@
-#Feedreader tests
+# Feedreader tests
 
 ## Project Overview
 Project for Udacity Nanodegree Course.
@@ -11,21 +11,21 @@ The jasmine tests will automatically run and will appear at the bottom of the pa
 The file for the jasmine tests are located in jasmine/spec/feedreader.js.
 
 ## Built with
-[Jasmine](http://jasmine.github.io/)
+[Jasmine](http://jasmine.github.io/)  
 [jQuery](https://jquery.com/)
 
 ## Tests
-'RSS Feeds' suite
--Feeds are defined
--Feed has URL
--Feed has name
+'RSS Feeds' suite  
+- Feeds are defined
+- Feed has URL
+- Feed has name
 
-'The menu' suite
--Menu element is hidden by default
--Menu displays when clicked
+'The menu' suite  
+- Menu element is hidden by default
+- Menu displays when clicked
 
-'Initial Entries' suite
--loadFeed function is called and works
+'Initial Entries' suite  
+- loadFeed function is called and works
 
-'New Feed Selection' suite
--Content changes
+'New Feed Selection' suite  
+- Content changes
