@@ -1,7 +1,7 @@
 # Feedreader tests
 
 ## Project Overview
-Project for Udacity Nanodegree Course.
+Project for Udacity Front-End Web Developer Nanodegree Program.
 In this project we were given a web-based application that reads RSS feeds. Our task was to write tests against this application in Jasmine.
 
 ## How to use?
